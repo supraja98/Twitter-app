@@ -6,30 +6,32 @@ NativeBase is a free and open source UI component library for React Native
 
 1.	If you have a project already, then go to that directory. Else follow this
 
-a.	npm install -g create-react-native-app
-b.	create-react-native-app twitter_app
-c.	cd YourProjectName
+	npm install -g create-react-native-app
+
+	create-react-native-app twitter_app
+
+	cd YourProjectName
 
 
 
 2.	Install NativeBase 
 
-a.	npm install native-base --save
+	npm install native-base --save
 
 
 3.	Install @expo/vector-icons
 
-a.	npm install @expo/vector-icons --save	
+	npm install @expo/vector-icons --save	
 
 
 4.	CD into the new project directory
 
-a.	cd YourProjectName
+	cd YourProjectName
 
 
 5.	Start the development server locally
 
-a.	npm start
+	npm start
 
 Run your sample App in Expo 
 
