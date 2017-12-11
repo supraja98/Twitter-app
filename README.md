@@ -55,6 +55,33 @@ The peer dependencies included from any npm packages does not automatically get 
 
 react-native link
 
+
+Running your React Native application --
+
+1.	Install the Expo client app on your iOS or Android phone 
+
+a.	https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
+
+b.	https://itunes.apple.com/us/app/expo-client/id982107779?mt=8
+
+2.	Using the Expo app, scan the QR code from your terminal to open your project.
+
+Running on Physical Device :
+
+1.On Android :
+
+Enable Debugging over USB: 
+
+enable the "Developer options" menu by going to Settings → About phone and then tapping the Build number row at the bottom seven times. You can then go back to Settings → Developer options to enable "USB debugging".
+
+Plug in your device via USB:
+Check by typing which shows connected device
+$ adb devices
+List of devices attached
+Run your app
+$ react-native run-android
+
+
 For Quick Run of you react-native code without doing any setup.
 
       We can run any react-native code on following site’s  without any setup on local system. This will aid in quick testing  of code or component.
